@@ -52,10 +52,6 @@ export default function Company({ history }) {
             <button type="submit" onClick={() => {
                 history.push('/setdata')
             }}>Historical Prices</button>
-
-            <button type="submit" onClick={() => {
-                history.push('/realtime')
-            }}>Real Time Chart</button>
         </div>
         </>
     )

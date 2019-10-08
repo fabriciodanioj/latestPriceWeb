@@ -1,5 +1,6 @@
 import React , { useState } from "react";
 
+import "./styles.css"
 
 export default function SetHistoricalData({ history }) {
     const [range, setRange] = useState("");
@@ -30,6 +31,20 @@ export default function SetHistoricalData({ history }) {
       <button type="submit" className="symbols" onClick={() => {
         history.push('/company')
       }}>Back</button>
+      <div className="ranges">
+        <span>Available ranges:</span>
+        <ul>
+          <li>max: All available data up to 15 years</li>
+          <li>5y: Five years</li>
+          <li>2y: Two years</li>
+          <li>1y: One year</li>
+          <li>6m: Six months</li>
+          <li>3m: Three months</li>
+          <li>1m: One month</li>
+          <li>5d: Five Days </li>
+          <li>1d: One day</li>
+        </ul>
+      </div>
       </>
     )
 }

@@ -1,0 +1,13 @@
+.ranges span{
+    font-size: 20px;
+}
+
+.ranges {
+    padding-top: 20px;
+}
+.ranges li{
+    font-size: 15px;
+    padding-left: 10px;
+    list-style: none;
+
+}

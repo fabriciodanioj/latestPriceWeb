@@ -6,7 +6,6 @@ import Company from "./pages/Company";
 import Symbols from "./pages/Symbols";
 import Search from "./pages/Search";
 import SetHistoricalData from "./pages/SetHistoricalData";
-import RealTime from "./pages/RealTime";
 
 
 
@@ -19,7 +18,6 @@ export default function Routes() {
                 <Route path="/historical" component={Historical}/>
                 <Route path="/symbols" component={Symbols}/>
                 <Route path="/setdata" component={SetHistoricalData}/>
-                <Route path="/realtime" component={RealTime}/>
             </Switch>
         </BrowserRouter>
     ); 
