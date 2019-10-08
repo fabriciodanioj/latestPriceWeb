@@ -1,0 +1,18 @@
+h1 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: black;
+
+}
+
+ul.symbols-list li {
+    font-size: 10px;
+    padding-bottom: 15px;
+    border-color: black;
+    border-width: 5px;
+    list-style: circle;
+}
+
+ul.symbols-list li {
+    font-size: 10px;
+}

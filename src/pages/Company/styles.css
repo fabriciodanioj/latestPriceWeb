@@ -1,0 +1,31 @@
+.info header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    align-items: center;
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+
+.symbol  {
+    padding-bottom: 10px;
+}
+
+.description {
+    padding-bottom: 10px;
+}
+
+.add {
+    padding-bottom: 10px;
+}
+
+.website {
+    display: flex;
+    column-gap: 5px;
+}
+
+.options {
+    display: grid;
+    gap: 10px;
+    padding-top: 10px;
+}
