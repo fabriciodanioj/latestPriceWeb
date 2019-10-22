@@ -52,6 +52,10 @@ export default function Company({ history }) {
             <button type="submit" onClick={() => {
                 history.push('/setdata')
             }}>Historical Prices</button>
+
+            <button type="submit" onClick={() => {
+                history.push('/show')
+            }}>Show Latest News</button>
         </div>
         </>
     )

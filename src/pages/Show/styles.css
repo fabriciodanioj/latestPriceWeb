@@ -1,0 +1,12 @@
+.inf header h1 {
+    height: 100%;
+    width: 355px;
+}
+
+.source {
+    display: grid;
+}
+
+.inf p {
+    padding-bottom: 5px;
+}
